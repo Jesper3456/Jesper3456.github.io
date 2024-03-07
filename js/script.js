@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('#gallery').style.display = 'none';
 
 
-    document.querySelector('#galleryLink').addEventListener('onclick', () => {
+    document.querySelector('#galleryLink').addEventListener('onClick', () => {
         console.log('ok');
         document.querySelector('#image-body').style.display = 'none';
         document.querySelector('#gallery').style.display = 'block';
