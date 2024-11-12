@@ -5,6 +5,9 @@ h1 {
 }
 .container {
     text-align: center;
-    margin: 40px
+    margin: 40px;
+}
+.paragraph {
+    font-size: medium;
 }
 
