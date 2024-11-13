@@ -29,6 +29,7 @@
         </header>
         <main>
             <div class="container" id="einfuehrung">
+                <br>
                 <h3>Einführung</h3>
                 <br>
                 <p class="paragraph">
@@ -39,20 +40,21 @@
                 </p>
                 <figure>
                     <img src="images/Pendel.png" class="img-fluid" alt="Das Mathematische Pendel">
-                    <figcaption>Das Mathematische Pendel ausgelenkt um den Winkel \(\theta\)</figcaption>
+                    <figcaption class="img-caption">Das Mathematische Pendel ausgelenkt um den Winkel \(\theta\)</figcaption>
                 </figure>
                 <p class="paragraph">
                     Im Folgenden wollen wir die Bewegungsgleichung für dieses System aufstellen.
                 </p>
             </div>
             <div class="container" id="herleitung">
+                <br>
                 <h3>Herleitung der Bewegungsgleichung</h3>
                 <br>
                 <div class="container">
                     <p class="paragraph">Zunächst wollen wir die auf den Massenpunkt wirkende Kraft \(F_g\) in eine Komponente tangential und senkrecht zur Bewegungslinie des Massenpunktes unterteilen:</p>
                     <figure>
                         <img src="images/Pendel2.png" class="img-fluid" alt="Pendel mit Zerlegter Kraft">
-                        <figcaption>Die Gewichtskraft wurde in die beiden Komponenten zerlegt</figcaption>
+                        <figcaption class="img-caption">Die Gewichtskraft wurde in die beiden Komponenten zerlegt</figcaption>
                     </figure>
                     <p class="paragraph">
                         Da der Winkel im kleinen Kräftedreieck gleich dem Auslenkwinkel \(\theta\) ist, ergibt sich für die beiden Teilkräfte der folgende Zusammenhang:
@@ -65,9 +67,9 @@
                     </p>
                     <figure>
                         <img src="images/Kreis.png" class="img-fluid" alt="Kreisbogen">
-                        <figcaption>Kreisbogen in Abhängigkeit von Radius und Winkel</figcaption>
+                        <figcaption class="img-caption">Kreisbogen in Abhängigkeit von Radius und Winkel</figcaption>
                     </figure>
-                    <p>
+                    <p class="paragraph">
                         Die rot markierte Strecke lässt sich als \(r\theta\) ausdrücken. Bezogen auf das Federpendel bedeutet dies, dass wir die Auslenkung \(x\) als \(x = l\theta\) auffassen.
                         Eingesetzt in die obige Bewegungsgleichung erhält man: $$ \frac{d\theta^2}{dt^2} = - \frac{g}{l}sin(\theta) $$
                         An dieser Stelle möchten wir die folgende vereinfachte Annahme treffen: Für kleine Winkel \(\theta\) gilt \(\theta \approx sin(\theta)\).
@@ -82,12 +84,15 @@
                 </div>
             </div>
             <div class="container" id="aufgaben">
+                <br>
                 <h3>Aufgaben</h3>
                 <br>
                 <ol>
                     <li>
-                        Ein Fadenpendel habe die Länge \(l = 0,4m\). Berechnen Sie Die Schwingungsdauer dieses Pendels.
-                        (Nutzen Sie \(g = 9,81\frac{m}{s^2}\), geben Sie das Ergebnis in Sekunden an und runden Sie auf zwei Nachkommastellen)
+                        <p class="paragraph">
+                            Ein Fadenpendel habe die Länge \(l = 0,4m\). Berechnen Sie Die Schwingungsdauer dieses Pendels.
+                            (Nutzen Sie \(g = 9,81\frac{m}{s^2}\), geben Sie das Ergebnis in Sekunden an und runden Sie auf zwei Nachkommastellen)
+                        </p>
                         <div class="row g-3 align-items-center">
                             <div class="col-auto">
                                 <label for="schwingungsdauer1" class="col-form-label">\(T = \)</label>
@@ -103,7 +108,9 @@
                         </div>
                     </li>
                     <li>
-                        Ein Fadenpendel schwingt nach einer anfänglichen Auslenkung in \(32s\) 20 mal hin und her. Berechnen Sie hieraus die Fadenlänge \(l\) des Pendels. Geben Sie das Ergebnis in \(m\) an. 
+                        <p class="paragraph">
+                            Ein Fadenpendel schwingt nach einer anfänglichen Auslenkung in \(32s\) 20 mal hin und her. Berechnen Sie hieraus die Fadenlänge \(l\) des Pendels. Geben Sie das Ergebnis in \(m\) an. 
+                        </p>
                         <div class="row g-3 align-items-center">
                             <div class="col-auto">
                                 <label for="pendellaenge2" class="col-form-label">\(l = \)</label>

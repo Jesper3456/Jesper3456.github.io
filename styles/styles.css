@@ -8,7 +8,11 @@ h1 {
     margin: 40px;
 }
 .paragraph {
-    font-size: medium;
+    font-size: large;
+}
+.img-caption {
+    color: grey;
+    font-size: small;
 }
 #posfeedback1, #posfeedback2 {
     color: green;
@@ -17,4 +21,7 @@ h1 {
 #negfeedback1, #negfeedback2 {
     color: red;
     display: none;
+}
+ li  {
+    padding: 20px;
 }
