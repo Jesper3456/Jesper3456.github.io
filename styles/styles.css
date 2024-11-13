@@ -10,3 +10,11 @@ h1 {
 .paragraph {
     font-size: medium;
 }
+#posfeedback1, #posfeedback2 {
+    color: green;
+    display: none;
+}
+#negfeedback1, #negfeedback2 {
+    color: red;
+    display: none;
+}
