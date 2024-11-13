@@ -8,6 +8,7 @@ h1 {
     margin: 40px;
 }
 .paragraph {
+    text-align: center;
     font-size: large;
 }
 .img-caption {
@@ -24,4 +25,9 @@ h1 {
 }
  li  {
     padding: 20px;
+}
+footer {
+    text-align: center;
+    color: grey;
+    font-size: small;
 }
