@@ -23,6 +23,9 @@ h1 {
     color: red;
     display: none;
 }
+#solbtn1, #solbtn2 {
+    display: none;
+}
  li  {
     padding: 20px;
 }
