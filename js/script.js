@@ -3,8 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
         let solution1 = document.getElementById('schwingungsdauer1').value;
         if (solution1.localeCompare('1,23') === 0) {
             document.getElementById('schwingungsdauer1').style.borderColor = 'green';
-            document.getElementById('negfeedback1').style.display = 'none'
+            document.getElementById('negfeedback1').style.display = 'none';
             document.getElementById('posfeedback1').style.display = 'block';
+            document.getElementById('solbtn1').style.display = 'block';
         } else {
             document.getElementById('schwingungsdauer1').style.borderColor = 'red'
             document.getElementById('posfeedback1').style.display = 'none';
@@ -18,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('pendellaenge2').style.borderColor = 'green';
             document.getElementById('negfeedback2').style.display = 'none'
             document.getElementById('posfeedback2').style.display = 'block';
+            document.getElementById('solbtn2').style.display = 'block';
         } else {
             document.getElementById('pendellaenge2').style.borderColor = 'red';
             document.getElementById('posfeedback2').style.display = 'none'
