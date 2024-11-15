@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('btnex1').addEventListener('click', () => {
         let solution1 = document.getElementById('schwingungsdauer1').value;
         document.getElementById('solbtn1').style.display = 'block';
-        if (solution1.localeCompare('1,23') === 0) {
+        if (solution1.localeCompare('1,27') === 0) {
             document.getElementById('schwingungsdauer1').style.borderColor = 'green';
             document.getElementById('negfeedback1').style.display = 'none';
             document.getElementById('posfeedback1').style.display = 'block';
